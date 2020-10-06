@@ -1,0 +1,240 @@
+{
+  "Name": "AllField",
+  "Description": "Creates a new record of type All Field",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 1,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "Text",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Text is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "LargeText",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Date",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "DateTime",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "DateTimeLocal",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Time",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Bool",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Number",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Money",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 8,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Email",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 9,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "URL",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 10,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Phone",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 11,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.CreateEntity.0.AllField",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "CreatedRecordId",
+        "Text": "[Text]",
+        "LargeText": "[LargeText]",
+        "Date": "[Date]",
+        "DateTime": "[DateTime]",
+        "DateTimeLocal": "[DateTimeLocal]",
+        "Time": "[Time]",
+        "Bool": "[Bool]",
+        "Number": "[Number]",
+        "Money": "[Money]",
+        "Email": "[Email]",
+        "URL": "[URL]",
+        "Phone": "[Phone]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.CreateEntity",
+        "EntityIdentifier": "AllField"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.AllField",
+      "OrderIndex": 1,
+      "Parameters": {
+        "RecordId": "[CreatedRecordId]",
+        "OutputToken": "CreatedRecord"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "AllField"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 2,
+      "Parameters": {
+        "HttpCode": "201 Created",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Text",
+            "value": "[CreatedRecord:Text]"
+          },
+          {
+            "name": "LargeText",
+            "value": "[CreatedRecord:LargeText]"
+          },
+          {
+            "name": "Date",
+            "value": "[CreatedRecord:Date]"
+          },
+          {
+            "name": "DateTime",
+            "value": "[CreatedRecord:DateTime]"
+          },
+          {
+            "name": "DateTimeLocal",
+            "value": "[CreatedRecord:DateTimeLocal]"
+          },
+          {
+            "name": "Time",
+            "value": "[CreatedRecord:Time]"
+          },
+          {
+            "name": "Bool",
+            "value": "[CreatedRecord:Bool]"
+          },
+          {
+            "name": "Number",
+            "value": "[CreatedRecord:Number]"
+          },
+          {
+            "name": "Money",
+            "value": "[CreatedRecord:Money]"
+          },
+          {
+            "name": "Email",
+            "value": "[CreatedRecord:Email]"
+          },
+          {
+            "name": "URL",
+            "value": "[CreatedRecord:URL]"
+          },
+          {
+            "name": "Phone",
+            "value": "[CreatedRecord:Phone]"
+          }
+        ],
+        "Headers": [
+          {
+            "name": "Location",
+            "value": "http://release19-stable.apps.plantanapp.com/api/AllField?recordId=[CreatedRecordId]"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
