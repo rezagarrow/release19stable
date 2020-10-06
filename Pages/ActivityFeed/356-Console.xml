@@ -1,0 +1,93 @@
+<module type="Console" version="09.07.02.00">
+    <contentKey />
+    <moduleID>356</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/Card.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Navigation</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>9803dbee-8f6f-400a-936a-f501034f6bdd</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>Mode</settingname>
+            <settingvalue>Profile</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ConsoleWidth</settingname>
+            <settingvalue>250px</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>TabVisibility-ActivityFeed-MyProfile</settingname>
+            <settingvalue>AllUsers</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowSizeChange</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>DefaultSize</settingname>
+            <settingvalue>IconNone</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>ShowTooltip</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>DefaultView</settingname>
+            <settingvalue>Hide</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>IncludeParent</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>TabVisibility-ActivityFeed-Friends</settingname>
+            <settingvalue>Friends</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>AllowViewChange</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>TabVisibility-ActivityFeed-Messages</settingname>
+            <settingvalue>User</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>Console</definition>
+    <moduledefinition>Console</moduledefinition>
+</module>
