@@ -1,0 +1,131 @@
+<module type="DotNetNukeModulesMemberDirectory" version="09.07.02.00">
+    <contentKey />
+    <moduleID>367</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/CardNoTitle.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>All Users</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Member Directory</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>fd2b50b4-1e06-4814-8db7-c523ec62ec84</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>FilterBy</settingname>
+            <settingvalue>User</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>SearchField2</settingname>
+            <settingvalue>Email</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField3</settingname>
+            <settingvalue>City</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>EnablePopUp</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>DisplaySearch</settingname>
+            <settingvalue>None</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>ItemTemplate</settingname>
+            <settingvalue>&lt;div class="friendProfileActions" data-bind="visible: !IsUser() &amp;&amp; IsAuthenticated"&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="" title="" class="ComposeMessage"&gt;&lt;span data-bind="text: SendMessageText"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;
+                    &lt;span&gt;
+                    &lt;a href="" data-bind="click: addFriend, visible: FriendStatus() == 0"&gt;&lt;span data-bind="text: AddFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;span data-bind="click: addFriend, visible: IsPending()"&gt;&lt;span data-bind="text: FriendPendingText"&gt;&lt;/span&gt;&lt;/span&gt;
+                    &lt;a href="" data-bind="click: acceptFriend, visible: HasPendingRequest()"&gt;&lt;span data-bind="text: AcceptFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href="" data-bind="click: removeFriend, visible: IsFriend()"&gt;&lt;span data-bind="text: RemoveFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;/span&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    &lt;span&gt;
+                    &lt;a href="" data-bind="click: follow, visible: !IsFollowing()"&gt;&lt;span data-bind="text: FollowText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href="" data-bind="click: unFollow, visible: IsFollowing()"&gt;&lt;span data-bind="text: UnFollowText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;/span&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/div&gt;
+                  </settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>AlternateItemTemplate</settingname>
+            <settingvalue>&lt;div class="friendProfileActions" data-bind="visible: !IsUser() &amp;&amp; IsAuthenticated"&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="" title="" class="ComposeMessage"&gt;&lt;span data-bind="text: SendMessageText"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;
+                    &lt;span&gt;
+                    &lt;a href="" data-bind="click: addFriend, visible: FriendStatus() == 0"&gt;&lt;span data-bind="text: AddFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;span data-bind="click: addFriend, visible: IsPending()"&gt;&lt;span data-bind="text: FriendPendingText"&gt;&lt;/span&gt;&lt;/span&gt;
+                    &lt;a href="" data-bind="click: acceptFriend, visible: HasPendingRequest()"&gt;&lt;span data-bind="text: AcceptFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href="" data-bind="click: removeFriend, visible: IsFriend()"&gt;&lt;span data-bind="text: RemoveFriendText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;/span&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    &lt;span&gt;
+                    &lt;a href="" data-bind="click: follow, visible: !IsFollowing()"&gt;&lt;span data-bind="text: FollowText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href="" data-bind="click: unFollow, visible: IsFollowing()"&gt;&lt;span data-bind="text: UnFollowText"&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;/span&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/div&gt;
+                  </settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField4</settingname>
+            <settingvalue>Country</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField1</settingname>
+            <settingvalue>DisplayName</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>DotNetNuke.Modules.MemberDirectory</definition>
+    <moduledefinition>Member Directory</moduledefinition>
+</module>
