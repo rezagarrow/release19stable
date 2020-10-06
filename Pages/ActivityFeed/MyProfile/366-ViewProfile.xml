@@ -1,0 +1,89 @@
+<module type="ViewProfile" version="09.03.02">
+    <contentKey />
+    <moduleID>366</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/CardNoTitle.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>All Users</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>ViewProfile</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>368f1a16-b4c0-41f6-8f56-c8a7bb19ee39</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>ProfileTemplate</settingname>
+            <settingvalue>&lt;div class="pBio"&gt;
+                    &lt;h3 data-bind="text: AboutMeText"&gt;&lt;/h3&gt;
+                    &lt;span data-bind="text: EmptyAboutMeText, visible: Biography().length==0"&gt;&lt;/span&gt;
+          &lt;p data-bind="html: Biography"&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="pAddress"&gt;
+                    &lt;h3 data-bind="text: LocationText"&gt;&lt;/h3&gt;
+          &lt;span data-bind="text: EmptyLocationText, visible: Street().length==0 &amp;&amp; Location().length==0 &amp;&amp; Country().length==0 &amp;&amp; PostalCode().length==0"&gt;&lt;/span&gt;
+                    &lt;p&gt;&lt;span data-bind="text: Street()"&gt;&lt;/span&gt;&lt;span data-bind="visible: Street().length &gt; 0"&gt;&lt;br/&gt;&lt;/span&gt;
+                    &lt;span data-bind="text: Location()"&gt;&lt;/span&gt;&lt;span data-bind="visible: Location().length &gt; 0"&gt;&lt;br/&gt;&lt;/span&gt;
+                    &lt;span data-bind="text: Country()"&gt;&lt;/span&gt;&lt;span data-bind="visible: Country().length &gt; 0"&gt;&lt;br/&gt;&lt;/span&gt;
+                    &lt;span data-bind="text: PostalCode()"&gt;&lt;/span&gt;
+                    &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="pContact"&gt;
+                    &lt;h3 data-bind="text: GetInTouchText"&gt;&lt;/h3&gt;
+          &lt;span data-bind="text: EmptyGetInTouchText, visible: Telephone().length==0 &amp;&amp; Email().length==0 &amp;&amp; Website().length==0 &amp;&amp; IM().length==0"&gt;&lt;/span&gt;
+                    &lt;ul&gt;
+                    &lt;li data-bind="visible: Telephone().length &gt; 0"&gt;&lt;strong&gt;&lt;span data-bind="text: TelephoneText"&gt;:&lt;/span&gt;&lt;/strong&gt; &lt;span data-bind="text: Telephone()"&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;li data-bind="visible: Email().length &gt; 0"&gt;&lt;strong&gt;&lt;span data-bind="text: EmailText"&gt;:&lt;/span&gt;&lt;/strong&gt; &lt;span data-bind="text: Email()"&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;li data-bind="visible: Website().length &gt; 0"&gt;&lt;strong&gt;&lt;span data-bind="text: WebsiteText"&gt;:&lt;/span&gt;&lt;/strong&gt; &lt;span data-bind="text: Website()"&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;li data-bind="visible: IM().length &gt; 0"&gt;&lt;strong&gt;&lt;span data-bind="text: IMText"&gt;:&lt;/span&gt;&lt;/strong&gt; &lt;span data-bind="text: IM()"&gt;&lt;/span&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class="dnnClear"&gt;&lt;/div&gt;                  
+                  </settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>IncludeButton</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>ViewProfile</definition>
+    <moduledefinition>ViewProfile</moduledefinition>
+</module>
