@@ -1,0 +1,32 @@
+<module type="ActionForm" version="05.09.11.00">
+    <contentKey />
+    <moduleID>393</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions />
+    <title>Title Form</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>43471e2f-9f9c-4088-9962-e9f9c656cb9d</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Form</definition>
+    <moduledefinition>avt.Action Form</moduledefinition>
+</module>
