@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "namespace": {
+    "id": 1,
+    "name": "Util"
+  },
+  "name": "NewToken",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "value": "Test",
+    "type": "string"
+  }
+}
