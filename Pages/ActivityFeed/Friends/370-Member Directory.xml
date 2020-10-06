@@ -1,0 +1,85 @@
+<module type="DotNetNukeModulesMemberDirectory" version="09.07.02.00">
+    <contentKey />
+    <moduleID>370</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/CardNoTitle.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>All Users</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Member Directory</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>f35ac311-456d-47cc-bebe-f0e4176fc922</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>FilterBy</settingname>
+            <settingvalue>Relationship</settingvalue>
+        </modulesetting>
+        <modulesetting>
+            <settingname>FilterValue</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>SearchField2</settingname>
+            <settingvalue>Email</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>DisplaySearch</settingname>
+            <settingvalue>None</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField3</settingname>
+            <settingvalue>City</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField4</settingname>
+            <settingvalue>Country</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>hideadminborder</settingname>
+            <settingvalue>False</settingvalue>
+        </tabmodulesetting>
+        <tabmodulesetting>
+            <settingname>SearchField1</settingname>
+            <settingvalue>DisplayName</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>DotNetNuke.Modules.MemberDirectory</definition>
+    <moduledefinition>Member Directory</moduledefinition>
+</module>
