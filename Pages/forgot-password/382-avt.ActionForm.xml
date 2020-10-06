@@ -1,0 +1,44 @@
+<module type="ActionForm" version="05.09.11.00">
+    <contentKey />
+    <moduleID>382</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc>[G]Containers/PlantAnApp/CardNoTitle.ascx</containersrc>
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Forgot Password</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>216a2b9c-944d-4024-bcb2-2ff482f45341</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings>
+        <tabmodulesetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabmodulesetting>
+    </tabmodulesettings>
+    <definition>Action Form</definition>
+    <moduledefinition>avt.Action Form</moduledefinition>
+</module>
